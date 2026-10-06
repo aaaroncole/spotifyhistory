@@ -1,6 +1,8 @@
 # Spotify History
 
-Open index.html in a browser. This folder is ready to serve as a static GitHub Pages site; no build or keys are required. Nothing has been published.
+Live dashboard: https://aaaroncole.github.io/spotifyhistory/ — or open index.html locally. This is a static GitHub Pages site; no build or keys are required.
+
+Created by Aaron Cole with Codex.
 
 The dashboard includes aggregate listening history and detected album-session dates. Images load directly from Spotify and Wikimedia and require an internet connection. Image source and rights details are linked in the dashboard and IMAGE-CREDITS.html. Album-cover copyright remains with its owners; Wikipedia hosting does not grant a blanket reuse license.
 
