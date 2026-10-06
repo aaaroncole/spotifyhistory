@@ -2,8 +2,10 @@
 
 Live dashboard: https://aaaroncole.github.io/spotifyhistory/ — or open index.html locally. This is a static GitHub Pages site; no build or keys are required.
 
-Created by Aaron Cole with Codex.
-
 The dashboard includes aggregate listening history and detected album-session dates. Images load directly from Spotify and Wikimedia and require an internet connection. Image source and rights details are linked in the dashboard and IMAGE-CREDITS.html. Album-cover copyright remains with its owners; Wikipedia hosting does not grant a blanket reuse license.
 
-The featured cards support every combination of years. Artist photos come from verified public Spotify artist profiles. The three covers for Superdream, Rush Over Me, and Quickly Quickly, Vol. 1 use the Spotify image URLs supplied by the user. Existing Wikipedia covers remain unchanged.
+The featured cards support every combination of years. Artist photos come from verified public Spotify artist profiles. Superdream and Quickly Quickly, Vol. 1 use the Spotify image URLs supplied by the user. Rush Over Me uses the verified artwork from its original 2016 Spotify single page. Existing Wikipedia covers remain unchanged.
+
+The Flight log includes sanitized route dates and gate times, listening overlaps, airport and route music rankings, and individual flight soundtracks. Connected journeys also include layovers between adjacent flights at matching airports, up to 18 hours apart. Journey detail totals are separate from the map and flight totals. Map route widths measure listening time. Playback timelines show the leading artist in each 30-minute block. Stay selections include every interval of at least one day between recorded flights, without a maximum length. Different-city endpoints are explicitly labeled location uncertain and do not assign all interval listening to one city. Location windows and timestamp assumptions are explained in the tab. Booking references, seats, gates, tail numbers, notes, and private Flighty identifiers are excluded.
+
+The repeat-count audit identifies long entries using unambiguous cached catalog track lengths. Entries at least 1.75 song lengths long receive rounded duration-based play estimates. Charts, the song race and flight music allow switching between estimates and recorded entries. Listening time and observed full-album completion counts are preserved. These estimates cannot recover exact repeat events; unmatched tracks keep their original counts. Search the in-dashboard audit to inspect the flagged records.
